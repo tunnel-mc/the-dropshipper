@@ -14,7 +14,7 @@ function App() {
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={mk40k} className="framework" alt="MK 40K logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+          <img src={mk40k} className="vite" alt="MK 40K logo" />
         </div>
         <div>
           <h1>Get started mit deinen geilen Produkten</h1>
@@ -29,6 +29,7 @@ function App() {
         >
           Count is {count}
         </button>
+        <img src={mk40k} className="base" width="170" height="179" alt="mk40k" />
       </section>
 
     </>
